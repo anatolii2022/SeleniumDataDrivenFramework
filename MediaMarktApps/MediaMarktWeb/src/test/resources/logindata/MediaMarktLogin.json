@@ -3,14 +3,14 @@
     {
       "rowID": "tc001_loginCreds.01",
       "description": "Login data positive",
-      "email": "vasylenkoanatolii1989@gmail.com",
-      "password": "UvHJU5252tE+j!c",
+      "email": "youremail",
+      "password": "yourpassword",
       "title": "Elektronik, Trends & Technik kaufen im Onlineshop | MediaMarkt"
     },
     {
       "rowID": "tc001_loginCreds.02",
       "description": "Login data negative",
-      "email": "vasylenkoanatolii1989@gmail.com",
+      "email": "youremail",
       "password": "",
       "title": "Elektronik, Trends & Technik kaufen im Onlineshop | MediaMarkt"
     }
