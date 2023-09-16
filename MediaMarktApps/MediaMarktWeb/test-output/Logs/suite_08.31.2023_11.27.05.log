@@ -1,0 +1,38 @@
+
+------------------------------------ Test 'tc001_loginCreds: Login data positive' -------------------------------------------
+
+[08/31/2023 11:27:05]START -> tc001_loginCreds
+
+   *** Test Parameters = tc001_loginCreds.01, Login data positive, {"password":"UvHJU5252tE+j!c","description":"Login data positive","title":"Elektronik, Trends & Technik kaufen im Onlineshop | MediaMarkt","email":"vasylenkoanatolii1989@gmail.com","rowID":"tc001_loginCreds.01"} ***
+
+Expected condition failed: waiting for condition (title to contain "Login | MediaMarkt". Current title: "Elektronik, Trends & Technik kaufen im Onlineshop | MediaMarkt") to be refreshed (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:5324, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9800, moz:profile: C:\Users\WORKST~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:5324/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4197a459-1d54-4227-807a-8c203661f456
+
+    *** Result = FAILED ***
+
+[08/31/2023 11:27:46]END  -> com.mediamarkt.tests.login.MediaMarktLoginTest.tc001_loginCreds
+
+---
+
+
+------------------------------------ Test 'tc001_loginCreds: Login data negative' -------------------------------------------
+
+[08/31/2023 11:27:46]START -> tc001_loginCreds
+
+   *** Test Parameters = tc001_loginCreds.02, Login data negative, {"password":"","description":"Login data negative","title":"Elektronik, Trends & Technik kaufen im Onlineshop | MediaMarkt","email":"vasylenkoanatolii1989@gmail.com","rowID":"tc001_loginCreds.02"} ***
+
+Login Failed with error = Bitte gib dein Passwort ein.
+
+    *** Result = FAILED ***
+
+[08/31/2023 11:27:47]END  -> com.mediamarkt.tests.login.MediaMarktLoginTest.tc001_loginCreds
+
+---
+
+
+Total Passed = 0, Total Failed = 2, Total Skipped = 0
+

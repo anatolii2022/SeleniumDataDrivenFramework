@@ -1,0 +1,25 @@
+{
+  "tc001_login": [
+    {
+      "rowID": "tc001_login.01",
+      "description": "Login data positive",
+      "email": "vasylenkoanatolii1989@gmail.com",
+      "password": "UvHJU5252tE+j!c",
+      "title": "Elektronik, Trends & Technik kaufen im Onlineshop | MediaMarkt"
+    }
+  ],
+  "tc002_navigateToMenu": [
+    {
+      "rowID": "tc002_navigateToMenu.01",
+      "description": "Navigate trough menu",
+      "element": "COMPUTER_BUERO",
+      "title": "Computer & Büroartikel online kaufen | MediaMarkt"
+    },
+    {
+      "rowID": "tc002_navigateToMenu.02",
+      "description": "Navigate trough menu",
+      "element": "TV_AUDIO",
+      "title": "TV & Audio Produkte im Onlineshop | MediaMarkt"
+    }
+  ]
+}

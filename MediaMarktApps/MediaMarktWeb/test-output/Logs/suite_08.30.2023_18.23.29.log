@@ -1,0 +1,45 @@
+
+------------------------------------ Test 'tc001_loginCreds: Login data positive' -------------------------------------------
+
+[08/30/2023 18:23:29]START -> tc001_loginCreds
+
+   *** Test Parameters = tc001_loginCreds.01, Login data positive, {"password":"UvHJU5252tE+j!c","description":"Login data positive","title":"Elektronik, Trends & Technik kaufen im Onlineshop | MediaMarkt","email":"vasylenkoanatolii1989@gmail.com","rowID":"tc001_loginCreds.01"} ***
+
+Unable to locate element: //p[@data-test='email__error']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [603f8a94-6a5c-4dc8-9717-7191feaed07e, findElement {using=xpath, value=//p[@data-test='email__error']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:43333, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15792, moz:profile: C:\Users\WORKST~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:43333/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 603f8a94-6a5c-4dc8-9717-7191feaed07e
+
+    *** Result = FAILED ***
+
+[08/30/2023 18:23:44]END  -> com.mediamarkt.tests.login.MediaMarktLoginTest.tc001_loginCreds
+
+---
+
+
+------------------------------------ Test 'tc001_loginCreds: Login data negative' -------------------------------------------
+
+[08/30/2023 18:23:44]START -> tc001_loginCreds
+
+   *** Test Parameters = tc001_loginCreds.02, Login data negative, {"password":"","description":"Login data negative","title":"Elektronik, Trends & Technik kaufen im Onlineshop | MediaMarkt","email":"vasylenkoanatolii1989@gmail.com","rowID":"tc001_loginCreds.02"} ***
+
+Expected condition failed: waiting for condition (title to contain "Login | MediaMarkt". Current title: "Elektronik, Trends & Technik kaufen im Onlineshop | MediaMarkt") to be refreshed (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:43333, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15792, moz:profile: C:\Users\WORKST~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:43333/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 603f8a94-6a5c-4dc8-9717-7191feaed07e
+
+    *** Result = FAILED ***
+
+[08/30/2023 18:23:54]END  -> com.mediamarkt.tests.login.MediaMarktLoginTest.tc001_loginCreds
+
+---
+
+
+Total Passed = 0, Total Failed = 2, Total Skipped = 0
+

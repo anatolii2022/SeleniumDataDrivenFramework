@@ -1,0 +1,31 @@
+
+------------------------------------ Test 'tc001_loginCreds: Login data positive' -------------------------------------------
+
+[08/30/2023 18:03:15]START -> tc001_loginCreds
+
+   *** Test Parameters = tc001_loginCreds.01, Login data positive, {"password":"UvHJU5252tE+j!c","description":"Login data positive","title":"Elektronik, Trends & Technik kaufen im Onlineshop | MediaMarkt","email":"vasylenkoanatolii1989@gmail.com","rowID":"tc001_loginCreds.01"} ***
+
+   *** Result = PASSED ***
+
+[08/30/2023 18:04:17]END  -> tc001_loginCreds
+
+---
+
+
+------------------------------------ Test 'tc001_loginCreds: Login data negative' -------------------------------------------
+
+[08/30/2023 18:04:18]START -> tc001_loginCreds
+
+   *** Test Parameters = tc001_loginCreds.02, Login data negative, {"password":"","description":"Login data negative","title":"Elektronik, Trends & Technik kaufen im Onlineshop | MediaMarkt","email":"vasylenkoanatolii1989@gmail.com","rowID":"tc001_loginCreds.02"} ***
+
+Login Failed with error = Bitte gib dein Passwort ein.
+
+    *** Result = FAILED ***
+
+[08/30/2023 18:04:49]END  -> com.mediamarkt.tests.login.MediaMarktLoginTest.tc001_loginCreds
+
+---
+
+
+Total Passed = 1, Total Failed = 1, Total Skipped = 0
+

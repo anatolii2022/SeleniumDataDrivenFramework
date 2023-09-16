@@ -1,0 +1,42 @@
+
+------------------------------------ Test 'tc001_login: Login data positive' -------------------------------------------
+
+[08/30/2023 18:06:00]START -> tc001_login
+
+   *** Test Parameters = tc001_login.01, Login data positive, {"password":"UvHJU5252tE+j!c","description":"Login data positive","title":"Elektronik, Trends & Technik kaufen im Onlineshop | MediaMarkt","email":"vasylenkoanatolii1989@gmail.com","rowID":"tc001_login.01"} ***
+
+   *** Result = PASSED ***
+
+[08/30/2023 18:07:01]END  -> tc001_login
+
+---
+
+
+------------------------------------ Test 'tc002_navigateToMenu: Navigate trough menu' -------------------------------------------
+
+[08/30/2023 18:07:01]START -> tc002_navigateToMenu
+
+   *** Test Parameters = tc002_navigateToMenu.01, Navigate trough menu, {"description":"Navigate trough menu","title":"Computer & Büroartikel online kaufen | MediaMarkt","rowID":"tc002_navigateToMenu.01","element":"COMPUTER_BUERO"} ***
+
+   *** Result = PASSED ***
+
+[08/30/2023 18:07:03]END  -> tc002_navigateToMenu
+
+---
+
+
+------------------------------------ Test 'tc002_navigateToMenu: Navigate trough menu' -------------------------------------------
+
+[08/30/2023 18:07:04]START -> tc002_navigateToMenu
+
+   *** Test Parameters = tc002_navigateToMenu.02, Navigate trough menu, {"description":"Navigate trough menu","title":"TV & Audio Produkte im Onlineshop | MediaMarkt","rowID":"tc002_navigateToMenu.02","element":"TV_AUDIO"} ***
+
+   *** Result = PASSED ***
+
+[08/30/2023 18:07:07]END  -> tc002_navigateToMenu
+
+---
+
+
+Total Passed = 3, Total Failed = 0, Total Skipped = 0
+
